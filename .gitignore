@@ -1,15 +1,70 @@
+# ============================
+# Android Studio / IntelliJ
+# ============================
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.idea/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# ============================
+# Gradle
+# ============================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ============================
+# Local configuration
+# ============================
 local.properties
+/local.properties
+
+# ============================
+# Android build artifacts
+# ============================
+captures/
+.externalNativeBuild/
+.cxx/
+outputs/
+intermediates/
+
+# ============================
+# OS files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# Kotlin
+# ============================
+.kotlin/
+
+# ============================
+# Logs
+# ============================
+*.log
+
+# ============================
+# APK / AAB
+# ============================
+*.apk
+*.ap_
+*.aab
+
+# ============================
+# Keystore (VERY IMPORTANT)
+# ============================
+*.jks
+*.keystore
+*.pem
+*.p12
+
+# ============================
+# Misc
+# ============================
+*.tmp
+*.temp
