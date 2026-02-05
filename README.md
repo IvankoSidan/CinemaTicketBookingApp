@@ -178,6 +178,4 @@ features-auth/
 
 ## Демонстрация работы
 
-Видео демонстрации:
-
-[Смотреть работу приложения](https://drive.google.com/file/d/1jsDsKLJhky8ZLvlLI9IN1QCm6OkasRbe/view?usp=drive_link)
+Видео демонстрации: [Смотреть работу приложения](https://drive.google.com/file/d/1jsDsKLJhky8ZLvlLI9IN1QCm6OkasRbe/view?usp=drive_link)
