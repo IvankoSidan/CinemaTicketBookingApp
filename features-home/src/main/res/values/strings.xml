@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">features-home</string>
+    <string name="hello_petter_jackson">Hello, Petter Jackson</string>
+    <string name="pitterjaskon_gmail_com">pitterjaskon@gmail.com</string>
+    <string name="top_movies">Top Movies</string>
+    <string name="upcoming_movies">Upcoming Movies</string>
+    <string name="explorer">Explorer</string>
+    <string name="cart">Cart</string>
+    <string name="profile">Profile</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="date_text_duration">2024 • 1h 55m</string>
+    <string name="imdb">IMDb 6.0</string>
+    <string name="summary">Summary</string>
+    <string name="movie_description_goes_here">Movie description goes here...</string>
+    <string name="cast">Cast</string>
+    <string name="search_movies_hint">Search Movies...</string>
+    <string name="buy_ticket">Buy Ticket</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">features-booking</string>
+    <string name="_seats_selected">0 Seats Selected</string>
+    <string name="download_ticket">Download Ticket</string>
+    <string name="price">$0</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="selected">Selected</string>
+    <string name="available">Available</string>
+    <string name="selected_seats">Selected Seats</string>
+    <string name="back">Back</string>
+    <string name="minus">-</string>
+    <string name="time">time</string>
+</resources>

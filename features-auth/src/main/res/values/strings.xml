@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">features-auth</string>
+    <string name="get_started">Get Started</string>
+    <string name="discover_and_book_the_latest_nmovies_at_your_favorite_cinemas_n_easy_and_fast">Discover and book the latest \nmovies at your favorite cinemas\n Easy and fast!</string>
+    <string name="cinema_ticket_booking">Cinema Ticket Booking</string>
+    <string name="login">Login</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="password">Password</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="create_account">Create Account</string>
+    <string name="join_us_and_explore_movies">Join us and explore movies!</string>
+    <string name="full_name">Full Name</string>
+</resources>

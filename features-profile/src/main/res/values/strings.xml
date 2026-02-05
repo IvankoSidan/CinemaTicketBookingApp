@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">features-profile</string>
+    <string name="notification_title">Notification Title</string>
+    <string name="notifications">Notifications</string>
+    <string name="all">All</string>
+    <string name="unread">Unread</string>
+    <string name="no_notifications">No notifications</string>
+    <string name="you_re_all_caught_up">You\'re all caught up!</string>
+    <string name="_2_hours_ago">2 hours ago</string>
+    <string name="notification_message_goes_here_with_some_details_about_what_happened">Notification message goes here with some details about what happened.</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="back">Back</string>
+</resources>

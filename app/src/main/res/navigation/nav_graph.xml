@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/introFragment">
+
+    <!-- Auth Module -->
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.ivan.cinematicketbooking.features_auth.presentation.IntroFragment"
+        android:label="Intro"
+        tools:layout="@layout/fragment_intro">
+        <action
+            android:id="@+id/action_introFragment_to_authFragment"
+            app:destination="@id/authFragment" />
+        <action
+            android:id="@+id/action_introFragment_to_explorerFragment"
+            app:destination="@id/explorerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="com.ivan.cinematicketbooking.features_auth.presentation.AuthFragment"
+        android:label="Auth"
+        tools:layout="@layout/fragment_auth">
+        <action
+            android:id="@+id/action_authFragment_to_explorerFragment"
+            app:destination="@id/explorerFragment" />
+    </fragment>
+
+    <!-- Home Module -->
+    <fragment
+        android:id="@+id/explorerFragment"
+        android:name="com.ivan.cinematicketbooking.features_home.presentation.ExplorerFragment"
+        android:label="Explorer"
+        tools:layout="@layout/fragment_explorer">
+        <action
+            android:id="@+id/action_explorerFragment_to_filmDetailsFragment"
+            app:destination="@id/filmDetailsFragment" />
+        <action
+            android:id="@+id/action_explorerFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+        <action
+            android:id="@+id/action_explorerFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/filmDetailsFragment"
+        android:name="com.ivan.cinematicketbooking.features_home.presentation.FragmentFilmDetails"
+        android:label="Film Details"
+        tools:layout="@layout/fragment_film_details">
+        <action
+            android:id="@+id/action_filmDetailsFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
+
+    <!-- Booking Module -->
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.ivan.cinematicketbooking.features_booking.presentation.CartFragment"
+        android:label="Cart"
+        tools:layout="@layout/fragment_cart" />
+
+    <!-- Profile Module -->
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.ivan.features_profile.presentation.fragments.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_fragmentNotifications"
+            app:destination="@id/fragmentNotifications" />
+        <action
+            android:id="@+id/action_profileFragment_to_authFragment"
+            app:destination="@id/authFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentNotifications"
+        android:name="com.ivan.features_profile.presentation.fragments.FragmentNotifications"
+        android:label="Notifications"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>
